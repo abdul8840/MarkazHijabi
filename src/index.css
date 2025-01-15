@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  margin: 1170px;
+  margin: 0px auto;
+}
+
+.herobg{
+  background-image: url(./assets/images/Homebg.jpg);
+  background-size: cover;
+}
