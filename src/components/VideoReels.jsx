@@ -48,7 +48,7 @@ const VideoReels = () => {
           >
             <video
               ref={(el) => (videoRefs.current[index] = el)}
-              className="w-[300px] h-[500px] object-cover"
+              className="w-[300px] h-[500px] rounded-xl object-cover"
               src={reel.src}
               autoPlay={index === currentReelIndex}
               loop
