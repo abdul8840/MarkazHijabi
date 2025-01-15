@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <>
     <nav className="border-gray-200 border-b-[1px] bg-primary py-2">
-        <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl py-2 px-4 ">
+        <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl py-2 px-4 gap-2 ">
           <div className="flex items-center gap-3">
             <Link to='/' className="text-white hover:text-headingColor transition text-lg sm:text-xl">
               <FaSquareInstagram />
@@ -27,7 +27,7 @@ const Header = () => {
               <FaGithubSquare />
             </Link>
           </div>
-          <div className=""><h2 className="text-white font-bold">
+          <div className=""><h2 className="text-white font-bold hidden md:block">
 ENJOY FREE SHIPPING ON US ORDERS OVER $50
 </h2></div>
           <div className="flex items-center">
